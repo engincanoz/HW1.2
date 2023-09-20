@@ -11,15 +11,15 @@ public class averageFinder{
             sum += arr[i];
         }
 
-        double average = (double)sum / arr.length;
+        int average = sum / arr.length;
 
         return average;
     }
 
 
-    public static void arrayConstructor(int[] arr, double average){
+    public static void arrayConstructor(int[] arr, int average){
 
-        double[] newArray = new double[arr.length];
+        int[] newArray = new int[arr.length];
 
         for(int i = 0; i < arr.length; i++){
 
