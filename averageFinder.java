@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class averageFinder{
 
-    public double avgfinder(int[] arr){
+    public static double avgfinder(double[] arr){
         
         int sum = 0;
         
@@ -17,17 +17,18 @@ public class averageFinder{
     }
 
 
-    public static void arrayConstructor(int[] arr, int average){
+    public static void arrayConstructor(double[] arr, double average){
 
-        int[] newArray = new int[arr.length];
+        double[] newArray = new double[arr.length];
 
         for(int i = 0; i < arr.length; i++){
 
             newArray[i] = average - arr[i];
         }
 
-        System.out.println(newArray.toString());
+        System.out.println(Arrays.toString(newArray));
     }
 
+    
     
 }
