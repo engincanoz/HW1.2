@@ -20,9 +20,10 @@ public class menu {
             if(choice == 1){
                 findMinMax.findMin(array);
             }
-            else if(choice == 2){
+            if(choice == 2){
                 findMinMax.findMax(array);
             }
+            
 
 
             if(choice == 4){
