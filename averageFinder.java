@@ -17,7 +17,7 @@ public class averageFinder{
     }
 
 
-    public static String arrayConstructor(int[] arr, int average){
+    public static void arrayConstructor(int[] arr, int average){
 
         int[] newArray = new int[arr.length];
 
@@ -26,7 +26,7 @@ public class averageFinder{
             newArray[i] = average - arr[i];
         }
 
-        return newArray.toString();
+        System.out.println(newArray.toString());
     }
 
     
