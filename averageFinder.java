@@ -23,7 +23,7 @@ public class averageFinder{
 
         for(int i = 0; i < arr.length; i++){
 
-            newArray[i] = average - arr[i];
+            newArray[i] = arr[i] - average;
         }
 
         System.out.println(Arrays.toString(newArray));
