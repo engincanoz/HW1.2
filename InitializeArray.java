@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class InitialzeArray {
+public class InitializeArray {
     public static void initArr(String[] args) {
 
         final int ARRAY_LENGTH = 10;
