@@ -1,5 +1,5 @@
 public class findOddEvenSum{
-    public int sumOdd(int[] inputarray) {
+    public static int sumOdd(int[] inputarray) {
         int oddsum = 0;
         for(int i = 0;i<inputarray.length;i++) {
             if (i%2==1) {
@@ -8,7 +8,7 @@ public class findOddEvenSum{
         }
         return oddsum;
     }
-public int sumEven(int[] inputarray) {
+public static int sumEven(int[] inputarray) {
         int evenSum = 0;
         for(int i = 0;i<inputarray.length;i++) {
             if (i%2==1) {
