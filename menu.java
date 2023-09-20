@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class menu {
 
-    public static void main(String[] args) {
+    public static void displayMenu(int[] array) {
         
         boolean exit = true;
         Scanner scan = new Scanner(System.in);
@@ -17,7 +17,22 @@ public class menu {
                                 "6) Quit.");
             int choice = scan.nextInt();
 
-            if(choice == 6)
+            if(choice == 1){
+                findMinMax.findMin(array);
+            }
+            else if(choice == 2){
+                findMinMax.findMax(array);
+            }
+
+
+            if(choice == 4){
+                findOddEvenSum.sumOdd(array);
+            }
+            else if(choice == 5){
+                findOddEvenSum.sumEven(array);
+            }
+
+            else if(choice == 6)
                 exit = false;
 
             if(!exit)
