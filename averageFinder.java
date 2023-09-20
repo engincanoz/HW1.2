@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class averageFinder{
 
-    public int avgfinder(int[] arr){
+    public double avgfinder(int[] arr){
         
         int sum = 0;
         
@@ -11,7 +11,7 @@ public class averageFinder{
             sum += arr[i];
         }
 
-        int average = sum / arr.length;
+        double average = (double)sum / arr.length;
 
         return average;
     }
