@@ -18,20 +18,20 @@ public class menu {
             int choice = scan.nextInt();
 
             if(choice == 1){
-                findMinMax.findMin(array);
+                System.out.println(findMinMax.findMin(array)); 
             }
             if(choice == 2){
-                findMinMax.findMax(array);
+               System.out.println( findMinMax.findMax(array));
             }
             if(choice == 3){
                 double average = averageFinder.avgfinder(array);
                 averageFinder.arrayConstructor(array , average);
             }
             if(choice == 4){
-                findOddEvenSum.sumOdd(array);
+                System.out.println(findOddEvenSum.sumOdd(array));
             }
             if(choice == 5){
-                findOddEvenSum.sumEven(array);
+               System.out.println( findOddEvenSum.sumEven(array));
             }
 
             if(choice == 6)
@@ -41,6 +41,6 @@ public class menu {
                 System.out.println("Goodbye!");  
 
         }while(exit);
+        scan.close();
     }
-    
 }
