@@ -11,7 +11,7 @@ public class findOddEvenSum{
 public static int sumEven(int[] inputarray) {
         int evenSum = 0;
         for(int i = 0;i<inputarray.length;i++) {
-            if (i%2==1) {
+            if (i%2==0) {
                 evenSum = evenSum + inputarray[i];
             }
         }
