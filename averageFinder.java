@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class averageFinder{
 
-    public static double avgfinder(int[] arr){
+    public static int avgfinder(int[] arr){
         
         int sum = 0;
         

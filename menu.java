@@ -24,7 +24,7 @@ public class menu {
                System.out.println( findMinMax.findMax(array));
             }
             if(choice == 3){
-                double average = averageFinder.avgfinder(array);
+                int average = averageFinder.avgfinder(array);
                 averageFinder.arrayConstructor(array , average);
             }
             if(choice == 4){
